@@ -1,0 +1,43 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(255, 255, 255);
+}
+
+header{
+    background-color: rgb(83, 209, 218);
+    height: 150px;
+    
+}
+
+header h1 h2 {
+    margin: 22px;
+    padding: 22px;
+}
+
+#navegacao{
+    text-align: center;
+    text-decoration: none;
+}
+
+#navegacao nav a{
+    background-color: rgb(89, 26, 122);
+    margin: 10px;
+    font-size: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    
+}
+
+nav a {
+    color: aqua;
+}
+
+#formulario{
+    float: right;
+
+}
