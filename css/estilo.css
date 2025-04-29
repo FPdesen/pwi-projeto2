@@ -5,11 +5,13 @@
 }
 
 body{
-    background: rgb(255, 255, 255);
+    background-image: url(../image/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 header{
-    background-color: rgb(83, 209, 218);
+    background-color: rgb(255, 255, 255);
     height: 150px;
     
 }
@@ -17,6 +19,8 @@ header{
 header h1 h2 {
     margin: 22px;
     padding: 22px;
+    color: rgb(177, 103, 18);
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #navegacao{
