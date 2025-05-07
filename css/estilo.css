@@ -4,21 +4,14 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: #f3f3f3;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 header{
     background-color: rgb(236, 191, 100);
     height: 130px;
     
 }
 
-#logo{
-    margin: 22px 0 22px 0;
-    padding: 22px 0 22px 0;
+header{
+    
     color: rgb(6, 4, 2);
     font-size: 1.7em;
     font-family: 'Courier New', Courier, monospace;
@@ -43,6 +36,12 @@ nav a {
     color: rgb(255, 255, 255);
 }
 
-form{
+#conteudo1{
     text-align: center;
+}
+
+#conteudo1 p{
+    width: 300px;
+    font-size: 1.8em;
+    font-family: 'Courier New', Courier, monospace;
 }
