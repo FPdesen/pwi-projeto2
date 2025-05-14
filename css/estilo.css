@@ -36,12 +36,14 @@ nav a {
     color: rgb(255, 255, 255);
 }
 
-#conteudo1{
+.conteudo1{
     text-align: center;
 }
 
-#conteudo1 p{
+.conteudo1 .b{
     width: 300px;
-    font-size: 1.8em;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.4em;
+    font-style: italic;
+    display: inline-block;
 }
+
