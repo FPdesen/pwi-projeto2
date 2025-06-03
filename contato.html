@@ -1,56 +1,67 @@
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fale Conosco</title>
     <link rel="stylesheet" type="text/css" href="./css/estilo.css">
 </head>
-<body>
+
+<body id="fundo-cont">
     <div id="container">
-        <div id="Navegacao">
-        <header>
-            <h1>PetHouse/PetShop e Atendimento</h1>
-            </header>
-            <nav>
-                <a href="Pets.html">Início</a>
-                <a href="">Produtos</a>
+        <header id="cabecalho">
+            <img src="./image/logo.png">
+            <h1>PetHouse</h1>
+            <nav class="menu">
+                <a href="index.html">Início</a>
+                <a href="">Lojas</a>
                 <a href="">Serviços</a>
-                <a href="contato.html">Contato</a>   
+                <a href="contato.html">Contato</a>
             </nav>
-        </div>
-
-        <h1>Faça seu Cadastro para Melhor Contato Conosco</h1><br>
-
+        </header>
+        <div class="caixa1">
+            <h1 class="cont">Torne-se nosso Colaborador</h1>
+            <h2 class="cont">Faça seu Cadastro para Melhor Contato Conosco</h2><br>
         <form action="">
             <h3>Nome</h3>
             <label for="name"></label>
-            <input type="text" class="texto" id="name"><br><br><br>
-
-            <h3>Sexo</h3>
-            <label for="Masculino" id="Masculino">Masculino</label>
-            <input type="radio" class="radio" id="Masculino">
-            <label for="Feminino">Feminino</label>
-            <input type="radio" class="radio" id="Feminino"><br><br><br>
+            <input type="text" class="texto" id="name"><br><br>
 
             <h3>Email</h3>
             <label for="email"></label>
-            <input type="email" class="texto" id="email"><br><br><br>
+            <input type="email" class="texto" id="email"><br><br>
 
             <h3>Telefone/Celular</h3>
             <label for="num"></label>
-            <input type="text" id="num"><br><br><br>
-
-            <h3>Bairro</h3>
-            <label for="bairro"></label>
-            <input type="text" class="texto" id="bairro"><br><br><br>
+            <input type="text" class="texto" id="num"><br><br>
 
             <h3>Cidade</h3>
             <label for="cidade"></label>
-            <input type="text" class="texto" id="cidade">
+            <input type="text" class="texto" id="cidade"><br><br>
 
+            <h3>Você possui algum Pet Shop ?</h3>
+            <label for="sim">Sim</label>
+            <input type="radio" id="sim">
+            <label for="Não">Não</label>
+            <input type="radio" id="Não"><br><br>
 
+            <label for="concordo">Concordo em Receber Comunicações</label>
+            <input type="checkbox" id="concordo"><br><br>
+
+            <h3> Seus dados serão utilizados apenas para atualizações de marketing</h3><br>
+
+           <button onclick="alert('Agradecemos sua Confiança')">Enviar</button>
         </form>
     </div>
+
+    </div>
+    <footer>
+        <div id="rodape">
+            <h3>Contamos Com Seu Apoio</h3>
+            &copy;Copyright 2015-2025 
         </div>
+    </footer>
+
 </body>
+
 </html>
