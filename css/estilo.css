@@ -1,151 +1,389 @@
-*{
-    margin: auto;
-    padding: auto;
-    box-sizing: border-box;
+* {
+  margin: auto;
+  padding: auto;
+  box-sizing: border-box;
 }
 
 /* Menu de Navegação */
-#cabecalho{
-    height: 165px;
-    width: auto;
-    background-image: url(../image/fundo2.jpg);
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#cabecalho {
+  height: 150px;
+  width: 100%;
+  background-color: #2b7a78;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
 }
 
-#cabecalho img{
-    height: 70px;
-    width: 70px;
-    margin: 0 10px 0 90px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#cabecalho img {
+  height: 70px;
+  width: 70px;
+  margin: 0 10px 0 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#cabecalho h1{
-    color: rgb(255, 255, 255);
-    margin: 0 60px 0 0;
-    font-size: 3.8em;
-    font-style: italic;
+#cabecalho h1 {
+  color: rgb(255, 255, 255);
+  margin: 0 60px 0 0;
+  font-size: 3.8em;
+  font-style: italic;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 0;
 }
 
-#cabecalho nav{
-    margin: 0 100px 0 100px;
-    border:  1px solid black;
-    height: auto;
-    width: auto;
-    border-radius: 44px;
+#cabecalho nav {
+  margin: 0 100px 0 100px;
+  height: auto;
+  width: auto;
+  border-radius: 44px;
 }
 
-#cabecalho a{
-    color: rgb(0, 0, 0);
-    font-size: 1.9em;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-decoration: none;
-    margin: 5px;
+#cabecalho a {
+  color: rgb(255, 255, 255);
+  font-size: 1.9em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-decoration: none;
+  margin: 5px;
 }
 
-#cabecalho a:hover{
-    color: #ffffff;
-    transition: 0.99ms
+#cabecalho a:hover {
+  color: #807d7d;
+  transform: translateY(-5px);
 }
 
 /* Pagina Inicial */
 
-#container-anun{
-    background-image: url(../image/fundo1.jpg);
-    background-color: orangered;
-    padding: 20px;
+#container-anun {
+  background-image: url(../image/lax.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
 
 }
 
-#anuncio{
-    margin: 5px 300px 0 250px ;
-    height: 500px;
-    width: 800px;
-    display: flex;
-    border-radius: 10%;
-    
+#anuncio {
+  margin: 5px 600px 0 340px;
+  height: 400px;
+  width: 600px;
+  display: flex;
+  border-radius: 10%;
 }
 
-.conteudo1{
-    background-color: orangered;
-    margin: 5px;
-     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.4em;
-    font-style: italic;
-    border-radius: 2%;
+.conteudo1 {
+  background-color: rgb(255, 255, 255);
+  color: #2b7a78;
+  text-align: center;
+}
+
+.conteudo1 h1 {
+  font-size: 2.2em;
+  color: #2b7a78;
+  margin: 40px;
+  text-align: center;
 }
 
 .conteudo1 p {
-    height: 200px;
-    width: 300px;
-    margin: 0 0px 0 300px ;
+  font-size: 1.7em;
+  color: #2b7a78;
+  margin-bottom: 40px;
+  text-align: center;
 }
 
-.conteudo1 img{
-    margin: 0 300px 0 px;
-    border-radius: 2%;
+.conteudo1 .apre {
+  font-size: 1.3em;
+  font-family: 'Segoe UI', sans-serif;
+  color: #2b7a78;
+  margin-bottom: 40px;
+  text-align: center
+}
+
+.descricao {
+  background-color: #f4f4f4;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.sobre {
+  background-color: rgb(228, 226, 225);
+  margin: 15px 0 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2%;
+}
+
+.sobre p {
+  color: #2b7a78;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 1.2em;
+  width: 720px;
+  margin: 0 0px 0 300px;
+}
+
+.sobre img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 300px 0 0px;
+  border-radius: 1%;
+}
+
+.conheca a {
+  font-size: 2.6em;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #2b7a78;
+  text-align: center;
+  text-decoration: none;
+}
+
+.conheca a:hover {
+  color: #000000;
+  transition: 1s;
+}
+
+/* Serviços */
+
+#styserver {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fefefe;
+}
+
+
+.conteudo1 {
+  background-color: rgb(255, 255, 255);
+  color: #2b7a78;
+  text-align: center;
+
+}
+
+.conteudo1 h1 {
+  color: #2b7a78;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 40px;
+}
+
+#servicos h2 {
+  font-size: 2.5em;
+  color: #444;
+  margin-bottom: 40px;
+}
+
+.servico-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.servico {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 30px;
+  width: 280px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.servico:hover {
+  transform: translateY(-5px);
+}
+
+.servico h3 {
+  font-size: 1.5em;
+  color: #2b7a78;
+  margin-bottom: 15px;
+}
+
+.servico p {
+  font-size: 1em;
+  color: #555;
+}
+
+.saiba {
+  background-color: #f4f4f4;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.cadastro a {
+  font-size: 2.6em;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #2b7a78;
+  text-align: center;
+  text-decoration: none;
+}
+
+.cadastro a:hover {
+  color: #000000;
+  transition: 1s;
+}
+
+/*Lojas*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+section#lojas {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+#lojas h2 {
+  font-size: 2.5em;
+  color: #2b7a78;
+  margin-bottom: 40px;
+}
+
+.loja-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.loja {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.loja img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.loja p {
+  padding: 15px;
+  font-size: 1em;
+  color: #444;
 }
 
 /* Contato */
 /* Formulário */
-#fundo-cont{
-    background-image: url(../image/fundo1.jpg);
-}
-.caixa1 {
-    background-color: orangered;
-    padding: 30px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+.formu {
+  background-image: url(../image/lax3.png);
+  padding: 30px;
+  font-family: 'Segoe UI', sans-serif;
 }
 
-.cont{
-    font-style: italic;
-    text-align: center;
+.formu form {
+  background-color: #2b7a78;
+  color: #ffffff;
+  width: 400px;
+  text-align: center;
+  border-radius: 2%;
 }
 
-.caixa1 h3{
-    font-style: italic;
-    color: #ffffff;
+input {
+  border-color: aqua;
 }
 
-.caixa1 form{
-    background-color: rgb(204, 73, 25);
-    width: 400px;
-    text-align: center;
-    border-radius: 2%;
+.cont {
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
 }
 
-.texto{
-    width: 300px;
-    border-radius: 5px;
-    height: 30px;
+.caixa1 h3 {
+  font-family: 'Segoe UI', sans-serif;
+  color: #ffffff;
 }
 
 
-button{
-    background-color: black;
-    color: #ffffff;
-    height: 30px;
-    width: 200;
-    font-size: 1.1em;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+form {
+  color: #ddd;
+  width: 400px;
+  text-align: center;
+  border-radius: 2%;
 }
 
+.texto {
+  width: 300px;
+  border-radius: 5px;
+  height: 30px;
+}
+
+
+/* Estilo do botão */
+.btn-enviar {
+  background-color: #0078d7;
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 120, 215, 0.2);
+}
+
+/* Efeito ao passar o mouse */
+.btn-enviar:hover {
+  background-color: #005fa3;
+  transform: translateY(-2px);
+}
+
+/* Efeito ao clicar */
+.btn-enviar:active {
+  transform: scale(0.98);
+}
+
+
+
+/* Efeito Paralax*/
+
+.lax,
+.lax2,
+.lax3,
+.lax4 {
+  height: 100%;
+}
+
+.lax {
+  background-image: url(../image/lax.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.lax3 {
+  background-image: url(../image/lax3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
 /* rodape ************************/
 
-footer{
-    background-image: url(../image/fundo1.jpg);
-    padding: 30px;
+footer {
+  background-color: #2b7a78;
+  padding: 30px;
 }
 
-#rodape{
-    margin: 0 0 0 15px;
-    color: #000000;
-    font-size: 1.1em;
+#rodape {
+  margin: 0 0 0 15px;
+  color: #fff;
+  font-size: 1.1em;
 }
